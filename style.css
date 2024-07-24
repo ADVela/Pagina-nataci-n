@@ -1,0 +1,28 @@
+/*Selector nombre */
+body{
+    background-color: whitesmoke;
+}
+
+p{
+    color: darkblue;
+  /*  text-align: center; /* todo el texto al centro */ 
+}
+
+/* Selector clase */
+/* Vamos a cambiar  todos los elementos que tengan  esa clase, para que todo lo que tenga l misma clase tenga el mismo formato */
+.Competito {
+    border: 10px solid #000;
+    width: 300px;
+    height: 300px;  /* puede ser auto */
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+/*Selector por id*/
+/*Nos permite selecionar un elemento unico dentro del sitio,este solo debe aplicar a un elemento en su sitio*/
+#logo{
+    width: 200px;
+    height: 150px;
+}
